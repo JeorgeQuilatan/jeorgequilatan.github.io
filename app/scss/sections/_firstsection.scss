@@ -1,0 +1,158 @@
+//Extra Large Resolution//
+.first-section{
+    margin-top:20px;
+    height:200px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    .first-section-container{
+        width:70%;
+        height:100%;
+        border-bottom:1px solid black;
+        display: flex;
+        flex-flow: column;
+        justify-content: space-evenly;
+        align-items: center;
+        p{
+            letter-spacing: .1rem;
+            font-size: $font-med;
+            font-weight: normal;
+        }
+        h1{
+            font-family: $headerfont;
+            font-size:4.375rem;
+            letter-spacing: .1rem;
+        }
+    }
+}
+//Extra Large Resolution//
+
+
+//Large Resolution//
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+.first-section{
+        margin-top:20px;
+        height:200px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+        .first-section-container{
+            width:70%;
+            height:100%;
+            border-bottom:1px solid black;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-evenly;
+            align-items: center;
+            p{
+                letter-spacing: .1rem;
+                font-size: $font-med;
+                font-weight: normal;
+            }
+            h1{
+                font-family: $headerfont;
+                font-size:4.375rem;
+                letter-spacing: .1rem;
+            }
+        }
+}
+}
+//Large Resolution//
+
+
+//Small Resolution//
+@media only screen and (min-width: 769px) and (max-width:1024px){
+.first-section{
+    margin-top:20px;
+    height:200px;
+    width:100%;
+    display: flex;
+    justify-content: center;
+        .first-section-container{
+            width:80%;
+            height:100%;
+            border-bottom:1px solid black;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-evenly;
+            align-items: center;
+            p{
+                letter-spacing: .1rem;
+                font-size: $font-sm;
+                font-weight: normal;
+            }
+            h1{
+                font-family: $headerfont;
+                font-size:3.8rem;
+                letter-spacing: .1rem;
+            }
+        }
+    }
+}
+//Small Resolution//
+
+
+//Ipad/Tablet Resolution//
+@media only screen and (min-width: 481px) and (max-width:768px){
+    .first-section{
+        margin-top:20px;
+        height:200px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+            .first-section-container{
+                width:80%;
+                height:100%;
+                border-bottom:1px solid black;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-evenly;
+                align-items: center;
+                p{
+                    letter-spacing: .1rem;
+                    font-size: $font-sm;
+                    font-weight: normal;
+                    text-align: center;
+                }
+                h1{
+                    font-family: $headerfont;
+                    font-size:3rem;
+                    letter-spacing: .1rem;
+                    text-align: center;
+                }
+            }
+        }
+}
+//Ipad/Tablet Resolution//
+
+//Mobile Resolution//
+@media only screen and (max-width: 480px){
+    .first-section{
+        margin-top:20px;
+        height:200px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+            .first-section-container{
+                width:95%;
+                height:100%;
+                border-bottom:1px solid black;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-evenly;
+                align-items: center;
+                p{
+                    text-align: center;
+                    letter-spacing: .1rem;
+                    font-size: $font-sm;
+                    font-weight: normal;
+                }
+                h1{
+                    font-family: $headerfont;
+                    font-size:2.5rem;
+                    letter-spacing: .1rem;
+                    text-align: center;
+                }
+            }
+        }  
+}

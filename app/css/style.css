@@ -1,0 +1,593 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  font-size: 100%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.header-dropdown {
+  height: 60px;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  background-color: black;
+}
+.header-dropdown nav {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-dropdown nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+}
+
+header {
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+header .header-container {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+header .header-container .logobox {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+header .header-container .logobox a {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2.5rem;
+  color: white;
+  -webkit-text-decoration: white;
+          text-decoration: white;
+}
+header .header-container .header-links {
+  display: flex;
+  height: 100%;
+  width: 40%;
+}
+header .header-container .header-links nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+header .header-container .header-links nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.875rem;
+  letter-spacing: 0.1rem;
+  transition: all ease-in-out 0.1s;
+}
+header .header-container .header-links nav a:hover {
+  letter-spacing: 0.2rem;
+  scale: 1.1;
+  transition: all ease-in-out 0.1s;
+  font-weight: bold;
+}
+header .header-container .header-links nav .active {
+  scale: 1.1;
+  letter-spacing: 0.2rem;
+  transition: all ease-in-out 0.1s;
+  font-weight: bold;
+}
+header .header-container .header-dropdown {
+  display: none;
+  height: 100%;
+  width: auto;
+}
+header .header-container .header-dropdown svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  header .header-container {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .header-container .logobox {
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  header .header-container .logobox a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    color: white;
+    -webkit-text-decoration: white;
+            text-decoration: white;
+  }
+  header .header-container .header-links {
+    display: flex;
+    height: 100%;
+    width: 50%;
+  }
+  header .header-container .header-links nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  header .header-container .header-links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    transition: all ease-in-out 0.1s;
+  }
+  header .header-container .header-links nav a:hover {
+    letter-spacing: 0.2rem;
+    scale: 1.1;
+    transition: all ease-in-out 0.1s;
+    font-weight: bold;
+  }
+  header .header-container .header-links nav .active {
+    scale: 1.1;
+    letter-spacing: 0.2rem;
+    transition: all ease-in-out 0.1s;
+    font-weight: bold;
+  }
+  header .header-container .header-dropdown {
+    display: none;
+    height: 100%;
+    width: auto;
+  }
+  header .header-container .header-dropdown svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  header .header-container {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .header-container .logobox {
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  header .header-container .logobox a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    color: white;
+    -webkit-text-decoration: white;
+            text-decoration: white;
+  }
+  header .header-container .header-links {
+    display: flex;
+    height: 100%;
+    width: 50%;
+  }
+  header .header-container .header-links nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  header .header-container .header-links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    transition: all ease-in-out 0.1s;
+  }
+  header .header-container .header-links nav a:hover {
+    letter-spacing: 0.2rem;
+    scale: 1.1;
+    transition: all ease-in-out 0.1s;
+    font-weight: bold;
+  }
+  header .header-container .header-links nav .active {
+    scale: 1.1;
+    letter-spacing: 0.2rem;
+    transition: all ease-in-out 0.1s;
+    font-weight: bold;
+  }
+  header .header-container .header-dropdown {
+    display: none;
+    height: 100%;
+    width: auto;
+  }
+  header .header-container .header-dropdown svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  header .header-container {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .header-container .logobox {
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  header .header-container .logobox a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    color: white;
+    -webkit-text-decoration: white;
+            text-decoration: white;
+  }
+  header .header-container .header-links {
+    display: none;
+    height: 100%;
+    width: 50%;
+  }
+  header .header-container .header-links nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  header .header-container .header-links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    transition: all ease-in-out 0.1s;
+  }
+  header .header-container .header-links nav a:hover {
+    letter-spacing: 0.2rem;
+    scale: 1.1;
+    transition: all ease-in-out 0.1s;
+    font-weight: bold;
+  }
+  header .header-container .header-links nav .active {
+    scale: 1.1;
+    letter-spacing: 0.2rem;
+    transition: all ease-in-out 0.1s;
+    font-weight: bold;
+  }
+  header .header-container .header-dropdown {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+  }
+  header .header-container .header-dropdown svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+  header .header-container .header-dropdown .dropup {
+    display: none;
+  }
+  .header-dropdown {
+    height: 60px;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    background-color: black;
+    transition: all ease-in-out 300ms;
+    animation: slidedown 400ms ease-in-out forwards;
+  }
+  @keyframes slidedown {
+    0% {
+      opacity: 0;
+      transform: translateY(-40%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  .header-dropdown nav {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-dropdown nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+  }
+}
+@media only screen and (max-width: 480px) {
+  header {
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+  }
+  header .header-container {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+  }
+  header .header-container .logobox {
+    width: auto;
+    display: flex;
+    align-items: center;
+  }
+  header .header-container .logobox a {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    color: white;
+    -webkit-text-decoration: white;
+            text-decoration: white;
+  }
+  header .header-container .header-links {
+    display: none;
+    height: 100%;
+    width: 50%;
+  }
+  header .header-container .header-links nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  header .header-container .header-links nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    transition: all ease-in-out 0.1s;
+  }
+  header .header-container .header-links nav a:hover {
+    letter-spacing: 0.2rem;
+    scale: 1.1;
+    transition: all ease-in-out 0.1s;
+    font-weight: bold;
+  }
+  header .header-container .header-links nav .active {
+    scale: 1.1;
+    letter-spacing: 0.2rem;
+    transition: all ease-in-out 0.1s;
+    font-weight: bold;
+  }
+  header .header-container .header-dropdown {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: auto;
+  }
+  header .header-container .header-dropdown svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+  header .header-container .header-dropdown .dropup {
+    display: none;
+  }
+  .header-dropdown {
+    height: 60px;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    background-color: black;
+    transition: all ease-in-out 300ms;
+    animation: slidedown 400ms ease-in-out forwards;
+  }
+  @keyframes slidedown {
+    0% {
+      opacity: 0;
+      transform: translateY(-40%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  .header-dropdown nav {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-dropdown nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.875rem;
+    letter-spacing: 0.1em;
+  }
+}
+.first-section {
+  margin-top: 20px;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.first-section .first-section-container {
+  width: 70%;
+  height: 100%;
+  border-bottom: 1px solid black;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.first-section .first-section-container p {
+  letter-spacing: 0.1rem;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+.first-section .first-section-container h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 4.375rem;
+  letter-spacing: 0.1rem;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .first-section {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .first-section .first-section-container {
+    width: 70%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .first-section .first-section-container p {
+    letter-spacing: 0.1rem;
+    font-size: 1.125rem;
+    font-weight: normal;
+  }
+  .first-section .first-section-container h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 4.375rem;
+    letter-spacing: 0.1rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .first-section {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .first-section .first-section-container {
+    width: 80%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .first-section .first-section-container p {
+    letter-spacing: 0.1rem;
+    font-size: 0.875rem;
+    font-weight: normal;
+  }
+  .first-section .first-section-container h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3.8rem;
+    letter-spacing: 0.1rem;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .first-section {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .first-section .first-section-container {
+    width: 80%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .first-section .first-section-container p {
+    letter-spacing: 0.1rem;
+    font-size: 0.875rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  .first-section .first-section-container h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .first-section {
+    margin-top: 20px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .first-section .first-section-container {
+    width: 95%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .first-section .first-section-container p {
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-size: 0.875rem;
+    font-weight: normal;
+  }
+  .first-section .first-section-container h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+}/*# sourceMappingURL=style.css.map */

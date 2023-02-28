@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:$textfont;
+}
+
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    height:100%;
+    width:100%;
+}
+
+//mobile resolution dropdown
+.header-dropdown{
+    height:60px;
+    width:100%;
+    display: none;
+    justify-content: center;
+    background-color: black;
+    nav{
+        height: 100%;
+        width:70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a{
+            color: white;
+            text-decoration: none;
+            font-size: $font-sm;
+            letter-spacing: .1em;
+        }
+    }
+}
+//mobile resolution dropdown
