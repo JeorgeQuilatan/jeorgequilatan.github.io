@@ -261,7 +261,7 @@ header .header-container .header-dropdown svg {
   }
   header .header-container .logobox a {
     font-family: "Times New Roman", Times, serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
     -webkit-text-decoration: white;
             text-decoration: white;
@@ -354,7 +354,7 @@ header .header-container .header-dropdown svg {
   }
   header .header-container {
     height: 100%;
-    width: 90%;
+    width: 95%;
     display: flex;
     justify-content: space-between;
   }
@@ -365,7 +365,7 @@ header .header-container .header-dropdown svg {
   }
   header .header-container .logobox a {
     font-family: "Times New Roman", Times, serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: white;
     -webkit-text-decoration: white;
             text-decoration: white;
@@ -449,8 +449,8 @@ header .header-container .header-dropdown svg {
   }
 }
 .first-section {
-  margin-top: 20px;
-  height: 200px;
+  margin-top: 40px;
+  height: 150px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -477,8 +477,8 @@ header .header-container .header-dropdown svg {
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
   .first-section {
-    margin-top: 20px;
-    height: 200px;
+    margin-top: 40px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -505,8 +505,8 @@ header .header-container .header-dropdown svg {
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .first-section {
-    margin-top: 20px;
-    height: 200px;
+    margin-top: 40px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -522,7 +522,7 @@ header .header-container .header-dropdown svg {
   }
   .first-section .first-section-container p {
     letter-spacing: 0.1rem;
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     font-weight: normal;
   }
   .first-section .first-section-container h1 {
@@ -534,13 +534,13 @@ header .header-container .header-dropdown svg {
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .first-section {
     margin-top: 20px;
-    height: 200px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
   }
   .first-section .first-section-container {
-    width: 80%;
+    width: 90%;
     height: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -550,15 +550,14 @@ header .header-container .header-dropdown svg {
   }
   .first-section .first-section-container p {
     letter-spacing: 0.1rem;
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     font-weight: normal;
     text-align: center;
   }
   .first-section .first-section-container h1 {
     font-family: "Times New Roman", Times, serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     letter-spacing: 0.1rem;
-    text-align: center;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -579,10 +578,10 @@ header .header-container .header-dropdown svg {
     align-items: center;
   }
   .first-section .first-section-container p {
-    text-align: center;
     letter-spacing: 0.1rem;
-    font-size: 0.875rem;
+    font-size: 1.125rem;
     font-weight: normal;
+    text-align: center;
   }
   .first-section .first-section-container h1 {
     font-family: "Times New Roman", Times, serif;
