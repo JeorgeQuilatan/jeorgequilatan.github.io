@@ -563,7 +563,7 @@ header .header-container .header-dropdown svg {
 @media only screen and (max-width: 480px) {
   .first-section {
     margin-top: 20px;
-    height: 200px;
+    height: 150px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -579,13 +579,13 @@ header .header-container .header-dropdown svg {
   }
   .first-section .first-section-container p {
     letter-spacing: 0.1rem;
-    font-size: 1.125rem;
+    font-size: 0.875rem;
     font-weight: normal;
     text-align: center;
   }
   .first-section .first-section-container h1 {
     font-family: "Times New Roman", Times, serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     letter-spacing: 0.1rem;
     text-align: center;
   }
