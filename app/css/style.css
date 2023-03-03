@@ -114,7 +114,7 @@ header .header-container .header-dropdown svg {
   }
   header .header-container {
     height: 100%;
-    width: 70%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
   }
@@ -484,7 +484,7 @@ header .header-container .header-dropdown svg {
     justify-content: center;
   }
   .first-section .first-section-container {
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-bottom: 1px solid black;
     display: flex;
@@ -527,7 +527,7 @@ header .header-container .header-dropdown svg {
   }
   .first-section .first-section-container h1 {
     font-family: "Times New Roman", Times, serif;
-    font-size: 3.8rem;
+    font-size: 3.5rem;
     letter-spacing: 0.1rem;
   }
 }
@@ -588,5 +588,366 @@ header .header-container .header-dropdown svg {
     font-size: 2rem;
     letter-spacing: 0.1rem;
     text-align: center;
+  }
+}
+.second-section {
+  margin-top: 40px;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.second-section .second-section-container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.second-section .second-section-container .second-section-container-one {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+}
+.second-section .second-section-container .second-section-container-one h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: normal;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  text-align: left;
+}
+.second-section .second-section-container .second-section-container-one p {
+  letter-spacing: 0.1rem;
+  line-height: 2rem;
+  text-align: justify;
+}
+.second-section .second-section-container .second-section-container-one a {
+  width: 200px;
+  height: 50px;
+  text-decoration: none;
+  color: black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all ease-in-out 0.2s;
+  letter-spacing: 0.1rem;
+}
+.second-section .second-section-container .second-section-container-one a:hover {
+  scale: 1.1;
+  transition: all ease-in-out 0.2s;
+  letter-spacing: 0.2rem;
+}
+.second-section .second-section-container .second-section-container-two {
+  width: 45%;
+  height: 100%;
+}
+.second-section .second-section-container .second-section-container-two .imgbox {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+.second-section .second-section-container .second-section-container-two .imgbox img {
+  height: 400px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: bottom center;
+     object-position: bottom center;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .second-section {
+    margin-top: 40px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .second-section .second-section-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .second-section .second-section-container .second-section-container-one {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .second-section .second-section-container .second-section-container-one h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    text-align: left;
+  }
+  .second-section .second-section-container .second-section-container-one p {
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    text-align: justify;
+  }
+  .second-section .second-section-container .second-section-container-one a {
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.1rem;
+  }
+  .second-section .second-section-container .second-section-container-one a:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.2rem;
+  }
+  .second-section .second-section-container .second-section-container-two {
+    width: 45%;
+    height: 100%;
+  }
+  .second-section .second-section-container .second-section-container-two .imgbox {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+  }
+  .second-section .second-section-container .second-section-container-two .imgbox img {
+    height: 400px;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: bottom center;
+       object-position: bottom center;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .second-section {
+    margin-top: 40px;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .second-section .second-section-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+  }
+  .second-section .second-section-container .second-section-container-one {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .second-section .second-section-container .second-section-container-one h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  .second-section .second-section-container .second-section-container-one p {
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  .second-section .second-section-container .second-section-container-one a {
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.1rem;
+  }
+  .second-section .second-section-container .second-section-container-one a:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.2rem;
+  }
+  .second-section .second-section-container .second-section-container-two {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+  }
+  .second-section .second-section-container .second-section-container-two .imgbox {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+  }
+  .second-section .second-section-container .second-section-container-two .imgbox img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: bottom center;
+       object-position: bottom center;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .second-section {
+    margin-top: 20px;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .second-section .second-section-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column-reverse;
+    justify-content: space-around;
+  }
+  .second-section .second-section-container .second-section-container-one {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .second-section .second-section-container .second-section-container-one h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  .second-section .second-section-container .second-section-container-one p {
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  .second-section .second-section-container .second-section-container-one a {
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.1rem;
+  }
+  .second-section .second-section-container .second-section-container-one a:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.2rem;
+  }
+  .second-section .second-section-container .second-section-container-two {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .second-section .second-section-container .second-section-container-two .imgbox {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+  }
+  .second-section .second-section-container .second-section-container-two .imgbox img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: bottom center;
+       object-position: bottom center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .second-section {
+    margin-top: 20px;
+    height: 700px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .second-section .second-section-container {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: flex-start;
+  }
+  .second-section .second-section-container .second-section-container-one {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .second-section .second-section-container .second-section-container-one h1 {
+    height: 40%;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-size: 1.9rem;
+    letter-spacing: 0.1rem;
+    text-align: center;
+  }
+  .second-section .second-section-container .second-section-container-one p {
+    height: 45%;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  .second-section .second-section-container .second-section-container-one a {
+    align-self: center;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.1rem;
+    font-size: 0.875rem;
+  }
+  .second-section .second-section-container .second-section-container-one a:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.2rem;
+  }
+  .second-section .second-section-container .second-section-container-two {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+  }
+  .second-section .second-section-container .second-section-container-two .imgbox {
+    height: 100%;
+    width: 100%;
+    background-color: gray;
+  }
+  .second-section .second-section-container .second-section-container-two .imgbox img {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: bottom center;
+       object-position: bottom center;
   }
 }/*# sourceMappingURL=style.css.map */

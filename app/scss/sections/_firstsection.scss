@@ -1,3 +1,5 @@
+
+
 //Extra Large Resolution//
 .first-section{
     margin-top:40px;
@@ -37,7 +39,7 @@
         display: flex;
         justify-content: center;
         .first-section-container{
-            width:70%;
+            width:80%;
             height:100%;
             border-bottom:1px solid black;
             display: flex;
@@ -83,7 +85,7 @@
             }
             h1{
                 font-family: $headerfont;
-                font-size:3.8rem;
+                font-size:3.5rem;
                 letter-spacing: .1rem;
             }
         }
@@ -124,6 +126,7 @@
 }
 //Ipad/Tablet Resolution//
 
+
 //Mobile Resolution//
 @media only screen and (max-width: 480px){
     .first-section{
@@ -155,3 +158,4 @@
         }
     }
 }
+//Mobile Resolution//
