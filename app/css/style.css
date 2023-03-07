@@ -591,7 +591,7 @@ header .header-container .header-dropdown svg {
   }
 }
 .second-section {
-  margin-top: 50px;
+  margin-top: 80px;
   height: 400px;
   width: 100%;
   display: flex;
@@ -661,7 +661,7 @@ header .header-container .header-dropdown svg {
 
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
   .second-section {
-    margin-top: 50px;
+    margin-top: 80px;
     height: 400px;
     width: 100%;
     display: flex;
@@ -954,7 +954,7 @@ header .header-container .header-dropdown svg {
   }
 }
 .third-section {
-  margin-top: 50px;
+  margin-top: 80px;
   height: 300px;
   width: 100%;
   display: flex;
@@ -1043,4 +1043,393 @@ header .header-container .header-dropdown svg {
   scale: 1.1;
   transition: all ease-in-out 0.2s;
   letter-spacing: 0.2rem;
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+  .third-section {
+    margin-top: 80px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .third-section .third-section-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-one {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-one .third-section-container-one-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-one .third-section-container-one-title h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-one span {
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-one span p {
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-one svg {
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .third-section .third-section-container .third-section-container-two {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-two .third-section-container-two-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-two .third-section-container-two-title h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-two p {
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+  }
+  .third-section .third-section-container .third-section-container-two a {
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.1rem;
+  }
+  .third-section .third-section-container .third-section-container-two a:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.2rem;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .third-section {
+    margin-top: 50px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .third-section .third-section-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-one {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-one .third-section-container-one-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-one .third-section-container-one-title h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-one span {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-one span p {
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-one svg {
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .third-section .third-section-container .third-section-container-two {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-two .third-section-container-two-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-two .third-section-container-two-title h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-two p {
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+  }
+  .third-section .third-section-container .third-section-container-two a {
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.1rem;
+  }
+  .third-section .third-section-container .third-section-container-two a:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.2rem;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .third-section {
+    margin-top: 50px;
+    height: 650px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .third-section .third-section-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-one {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-one .third-section-container-one-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-one .third-section-container-one-title h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-one span {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-one span p {
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-one svg {
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .third-section .third-section-container .third-section-container-two {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-two .third-section-container-two-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-two .third-section-container-two-title h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-two p {
+    font-size: 1.125rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+  }
+  .third-section .third-section-container .third-section-container-two a {
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.1rem;
+  }
+  .third-section .third-section-container .third-section-container-two a:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.2rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .third-section {
+    margin-top: 40px;
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .third-section .third-section-container {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-one {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-one .third-section-container-one-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-one .third-section-container-one-title h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-one span {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-one span p {
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-one svg {
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+  }
+  .third-section .third-section-container .third-section-container-two {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+  .third-section .third-section-container .third-section-container-two .third-section-container-two-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .third-section .third-section-container .third-section-container-two .third-section-container-two-title h1 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+    font-size: 1.5rem;
+  }
+  .third-section .third-section-container .third-section-container-two p {
+    font-size: 0.875rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5rem;
+    text-align: justify;
+  }
+  .third-section .third-section-container .third-section-container-two a {
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.1rem;
+    font-size: 0.875rem;
+  }
+  .third-section .third-section-container .third-section-container-two a:hover {
+    scale: 1.1;
+    transition: all ease-in-out 0.2s;
+    letter-spacing: 0.2rem;
+  }
 }/*# sourceMappingURL=style.css.map */
