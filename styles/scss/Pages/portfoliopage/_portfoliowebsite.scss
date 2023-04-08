@@ -1,0 +1,337 @@
+@keyframes fadeIn {
+    from{
+       
+        translate: 0 -50%;
+        scale: 0.1;
+        opacity: 0;
+    }
+    to{
+        translate: 0%;
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.portfolio-overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: all .4s ease-in-out 0s;
+    background-color: rgba(12, 14, 12, 0.9);
+}
+
+.portfolio-imagebox{
+    height: 100%;
+    width: 100%;
+
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: fill;
+        border-radius: 1%;
+    }
+}
+
+.portfolio-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0;
+    transition: all .4s ease-in-out 0s;
+    h1{
+        font-weight: bold;
+        font-size: $font-large;
+        color: $color-three;
+        letter-spacing: 0.1rem;
+    }
+    .portfolio-buttonbox{
+        width: 150px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid $color-two;
+        transition: all ease-in-out .2s;
+        a{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: $font-small;
+        }
+    }
+    .portfolio-buttonbox:hover{
+        background-color: $color-two;
+        transition: all ease-in-out .2s;
+    }
+}
+
+.portfoliowebsite{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    .portfoliowebsite-container{
+        width: 80%;
+        height: 100%;
+        //WEBSITE
+        .portfoliowebsite-container-one{
+            width: 100%;
+            height: 1200px;
+            display: flex;
+            flex-flow: column;
+            animation: fadeIn 1s;
+            //ONE
+            .portfoliowebsite-container-one-rowone{
+                width: 100%;
+                height: 33.33%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .portfoliowebsite-container-one-rowone-boxone{
+                    width: 48.5%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-one-rowone-boxone:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-one-rowone-boxone:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+                
+                .portfoliowebsite-container-one-rowone-boxtwo{
+                    width: 48.5%;
+                    height: 95%;
+                    position: relative;
+                }
+                 //HOVER EFFECTS
+                .portfoliowebsite-container-one-rowone-boxtwo:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-one-rowone-boxtwo:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+
+            }
+            
+            //ONE
+
+            //TWO
+            .portfoliowebsite-container-one-rowtwo{
+                width: 100%;
+                height: 33.33%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .portfoliowebsite-container-one-rowtwo-boxone{
+                    width: 32%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-one-rowtwo-boxone:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-one-rowtwo-boxone:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+
+                .portfoliowebsite-container-one-rowtwo-boxtwo{
+                    width: 32%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                 .portfoliowebsite-container-one-rowtwo-boxtwo:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-one-rowtwo-boxtwo:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+
+                .portfoliowebsite-container-one-rowtwo-boxthree{
+                    width: 32%;
+                    height: 95%;
+                    position: relative;
+                }
+                 //HOVER EFFECTS
+                .portfoliowebsite-container-one-rowtwo-boxthree:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-one-rowtwo-boxthree:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+            }
+             //TWO
+
+             //THREE
+            .portfoliowebsite-container-one-rowthree{
+                width: 100%;
+                height: 33.33%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .portfoliowebsite-container-one-rowthree-boxone{
+                    width: 48.5%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-one-rowthree-boxone:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-one-rowthree-boxone:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+                
+                .portfoliowebsite-container-one-rowthree-boxtwo{
+                    width: 48.5%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-one-rowthree-boxtwo:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-one-rowthree-boxtwo:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+            }
+            //THREE
+        }
+        //WEBSITE
+
+        //WEB DESIGN
+        .portfoliowebsite-container-two{
+            width: 100%;
+            height: 400px;
+            display: none;
+            flex-flow: column;
+            animation: fadeIn 1s;
+            .portfoliowebsite-container-two-rowone{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .portfoliowebsite-container-two-rowone-boxone{
+                    width: 48.5%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-two-rowone-boxone:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-two-rowone-boxone:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+
+                .portfoliowebsite-container-two-rowone-boxtwo{
+                    width: 48.5%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-two-rowone-boxtwo:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-two-rowone-boxtwo:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+            }
+        }
+        //WEB DESIGN
+
+        //POSTER DESIGN
+        .portfoliowebsite-container-three{
+            width: 100%;
+            height: 400px;
+            display: none;
+            animation: fadeIn 1s;
+            .portfoliowebsite-container-three-rowone{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .portfoliowebsite-container-three-rowone-boxone{
+                    width: 48.5%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-three-rowone-boxone:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-three-rowone-boxone:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-three-rowone-boxtwo{
+                    width: 48.5%;
+                    height: 95%;
+                    position: relative;
+                }
+                //HOVER EFFECTS
+                .portfoliowebsite-container-three-rowone-boxtwo:hover .portfolio-overlay{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .portfoliowebsite-container-three-rowone-boxtwo:hover .portfolio-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER EFFECTS
+            }
+            
+        }
+        //POSTER DESIGN
+    }
+}
+
+

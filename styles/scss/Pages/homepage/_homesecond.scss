@@ -1,0 +1,460 @@
+.homesecond{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    .homesecond-container{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        //ONE
+        .homesecond-container-one{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            .homesecond-container-one-textbox{
+                width: 100%;
+                height: 80%;
+                display: flex;
+                flex-flow: column;
+                .homesecond-container-one-textbox-one{
+                    width: 100%;
+                    height: 50%;
+                    h1{
+                        color: $color-three;
+                        font-size:2.5rem;
+                        color: $color-two;
+                    }
+                }
+                .homesecond-container-one-textbox-two{
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        text-align: justify;
+                    }
+                }
+            }
+            .homesecond-container-one-buttonbox{
+                width: 100%;
+                height: 20%;
+                display: flex;
+                align-items: center;
+                .homesecond-container-one-buttonbox-button{
+                    width: 150px;
+                    height: 50px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: 1px solid $color-two;
+                    transition: all ease-in-out .2s;
+                    a{
+                        font-size: $font-small;
+                    }
+                }
+                .homesecond-container-one-buttonbox-button:hover{
+                    background-color: $color-two;
+                    transition: all ease-in-out .2s;
+                }
+            }
+        }
+        //ONE
+        
+        //TWO
+        .homesecond-container-two{
+            width: 40%;
+            height: 100%;
+            .homesecond-container-two-imagebox{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                    object-position: left bottom;
+                }
+            }
+        }
+        //TWO
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+    .homesecond{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        .homesecond-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            //ONE
+            .homesecond-container-one{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                .homesecond-container-one-textbox{
+                    width: 100%;
+                    height: 80%;
+                    display: flex;
+                    flex-flow: column;
+                    .homesecond-container-one-textbox-one{
+                        width: 100%;
+                        height: 65%;
+                        h1{
+                            color: $color-three;
+                            font-size:2.5rem;
+                            color: $color-two;
+                        }
+                    }
+                    .homesecond-container-one-textbox-two{
+                        width: 100%;
+                        height: 35%;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            text-align: justify;
+                        }
+                    }
+                }
+                .homesecond-container-one-buttonbox{
+                    width: 100%;
+                    height: 20%;
+                    display: flex;
+                    align-items: center;
+                    .homesecond-container-one-buttonbox-button{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-two;
+                        transition: all ease-in-out .2s;
+                        a{
+                            font-size: $font-small;
+                        }
+                    }
+                    .homesecond-container-one-buttonbox-button:hover{
+                        background-color: $color-two;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+            //ONE
+            
+            //TWO
+            .homesecond-container-two{
+                width: 40%;
+                height: 100%;
+                .homesecond-container-two-imagebox{
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        object-position: left center;
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Desktop*/
+
+/*Small Desktop*/
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    .homesecond{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        .homesecond-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column-reverse;
+            justify-content: space-between;
+            //ONE
+            .homesecond-container-one{
+                width: 100%;
+                height: 40%;
+                display: flex;
+                flex-flow: column;
+                .homesecond-container-one-textbox{
+                    width: 100%;
+                    height: 80%;
+                    display: flex;
+                    flex-flow: column;
+                    .homesecond-container-one-textbox-one{
+                        width: 100%;
+                        height: 40%;
+                        h1{
+                            color: $color-three;
+                            font-size:2.5rem;
+                            color: $color-two;
+                        }
+                    }
+                    .homesecond-container-one-textbox-two{
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            text-align: justify;
+                        }
+                    }
+                }
+                .homesecond-container-one-buttonbox{
+                    width: 100%;
+                    height: 20%;
+                    display: flex;
+                    align-items: center;
+                    .homesecond-container-one-buttonbox-button{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-two;
+                        transition: all ease-in-out .2s;
+                        a{
+                            font-size: $font-small;
+                        }
+                    }
+                    .homesecond-container-one-buttonbox-button:hover{
+                        background-color: $color-two;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+            //ONE
+            
+            //TWO
+            .homesecond-container-two{
+                width: 100%;
+                height: 55%;
+                display: flex;
+                justify-content: center;
+                .homesecond-container-two-imagebox{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        object-position:center;
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Small Desktop*/
+
+/*Ipad/Tablet*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    .homesecond{
+        width: 100%;
+        height: 850px;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        .homesecond-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column-reverse;
+            justify-content: space-between;
+            //ONE
+            .homesecond-container-one{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: column;
+                
+                .homesecond-container-one-textbox{
+                    width: 100%;
+                    height: 85%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .homesecond-container-one-textbox-one{
+                        width: 100%;
+                        height: 60%;
+                        display: flex;
+                        align-items: center;
+                        h1{
+                            font-size:2.5rem;
+                            color: $color-two;
+                            text-align: left;
+                        }
+                    }
+                    .homesecond-container-one-textbox-two{
+                        width: 100%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        p{
+                            text-align: justify;
+                        }
+                    }
+                }
+                .homesecond-container-one-buttonbox{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    align-items: center;
+                    .homesecond-container-one-buttonbox-button{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-two;
+                        transition: all ease-in-out .2s;
+                        a{
+                            font-size: $font-small;
+                        }
+                    }
+                    .homesecond-container-one-buttonbox-button:hover{
+                        background-color: $color-two;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+            //ONE
+            
+            //TWO
+            .homesecond-container-two{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                justify-content: center;
+                .homesecond-container-two-imagebox{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                        object-position:center;
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Ipad/Tablet*/
+
+/*Mobile*/
+@media only screen and (max-width: 480px){
+    .homesecond{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        
+        .homesecond-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column-reverse;
+            justify-content: space-between;
+            //ONE
+            .homesecond-container-one{
+                width: 100%;
+                height: 55%;
+                display: flex;
+                flex-flow: column;
+                
+                .homesecond-container-one-textbox{
+                    width: 100%;
+                    height: 85%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .homesecond-container-one-textbox-one{
+                        width: 100%;
+                        height: 65%;
+                        display: flex;
+                        align-items: center;
+                        h1{
+                            font-size:2.5rem;
+                            color: $color-two;
+                        }
+                    }
+                    .homesecond-container-one-textbox-two{
+                        width: 100%;
+                        height: 35%;
+                        display: flex;
+                        align-items: center;
+                        p{
+                            text-align: justify;
+                        }
+                    }
+                }
+                .homesecond-container-one-buttonbox{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    align-items: center;
+                    .homesecond-container-one-buttonbox-button{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-two;
+                        transition: all ease-in-out .2s;
+                        a{
+                            font-size: $font-small;
+                        }
+                    }
+                    .homesecond-container-one-buttonbox-button:hover{
+                        background-color: $color-two;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+            //ONE
+            
+            //TWO
+            .homesecond-container-two{
+                width: 100%;
+                height: 45%;
+                display: flex;
+                justify-content: center;
+                .homesecond-container-two-imagebox{
+                    display: flex;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        object-position:center bottom;
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Mobile*/

@@ -1,0 +1,1692 @@
+@keyframes popUp {
+    from{
+        opacity: 0;
+        translate: -100% 0%;
+    }
+    to{
+        translate: 0%;
+        opacity: 1;
+    }
+}
+
+.close-button{
+    fill: $color-three;
+    width: 99.6%;
+    height: 5%;
+    position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    svg{
+        width: 20px;
+        height: 25px;
+        transition: all ease-in-out .1s;
+    }
+    svg:hover{
+        fill: $color-two;
+        transition: all ease-in-out .1s;
+    }
+}
+
+.portfoliopopup{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+
+            //TWO
+           
+            //TWO
+        }
+    }
+}
+
+.portfoliopopup-tuvalu{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+
+            //TWO
+           
+            //TWO
+        }
+    }
+}
+
+.portfoliopopup-res1{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+
+            //TWO
+           
+            //TWO
+        }
+    }
+}
+
+.portfoliopopup-res2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+        }
+    }
+}
+
+.portfoliopopup-res3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+        }
+    }
+}
+
+.portfoliopopup-compbuilt{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+        }
+    }
+}
+
+.portfoliopopup-tomweb{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+        }
+    }
+}
+
+.portfoliopopup-wanderae{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+        }
+    }
+}
+
+.portfoliopopup-chocolala{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: fill;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-one;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+        }
+    }
+}
+
+.portfoliopopup-bball{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: contain;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-three;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-three;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+        }
+    }
+}
+
+.portfoliopopup-vball{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0%;
+    animation: popUp 1s;
+    display: none;
+    .portfoliopopup-background-overlay{
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.9);
+        position: absolute;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        .portfoliopopup-container{
+            width: 75%;
+            height: 60%;
+            position: relative;
+            display: flex;
+            //ONE
+            .portfoliopopup-container-one{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                .portfoliopopup-container-one-boxone{
+                    width: 70%;
+                    height: 100%;
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .slider{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        .slide_viewer{
+                            height: 100%;
+                            width: 100%;
+                            overflow: hidden;
+                            .slide_group{
+                                height: 100%;
+                                position: relative;
+                                width: 100%;
+                                .slide{
+                                    display: none;
+                                    height: 100%;
+                                    position: absolute;
+                                    width: 100%;
+                                }
+                                img{
+                                    width: 100%;
+                                    height: 100%;
+                                    object-fit: contain;
+                                }
+                            }
+                        }
+                    }
+                    .directional-nav{
+                        height: 100%;
+                        width: 100%;
+                        position: relative;
+                        display: flex;
+                        justify-content: space-between;
+                        .previous-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-three;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                        .next-btn{
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            svg{
+                                fill: $color-three;
+                                transition: all ease-in-out .2s;
+                                height: 40px;
+                                width: 30px;
+                            }
+                            svg:hover{
+                                fill: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+                .portfoliopopup-container-one-boxtwo{
+                    width: 30%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: flex-end;
+                    justify-content: space-between;
+                    align-items: center;
+                    flex-flow: column;
+                    .portfoliopopup-container-one-boxtwo-one{
+                        width: 90%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: flex-end;
+                        flex-flow: column;
+                        h1{
+                            color: $color-two;
+                            font-size: 3rem;
+                        }
+                        p{
+                            font-weight: bold;
+                        }
+                    }
+                    .portfoliopopup-container-one-boxtwo-two{
+                        width: 90%;
+                        height: 50%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        h1{
+                            color: $color-three;
+                            font-size: 1rem;
+                        }
+                        p{
+                            text-align:justify ;
+                        }
+                    }
+                }
+            }
+            //ONE
+        }
+    }
+}
+

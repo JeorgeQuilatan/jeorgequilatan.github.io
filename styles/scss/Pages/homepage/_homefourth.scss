@@ -1,0 +1,1716 @@
+.homefourth{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    .homefourth-container{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        .homefourth-container-titlebox{
+           height: 5%;
+           width: 100%;
+           display: flex;
+           align-items: flex-start; 
+           h1{
+            font-weight: normal;
+            font-size: $font-large;
+            color: $color-two;
+           }
+        }
+        //ONE
+        .homefourth-container-one{
+            width: 100%;
+            height: 47.5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            //ONE
+            .homefourth-container-one-boxone{
+                position: relative;
+                width: 50%;
+                height: 95%;
+                .homefourth-overlay{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    opacity: 0;
+                    transition: all .4s ease-in-out 0s;
+                    background-color: rgba(12, 14, 12, 0.9);
+                }
+                .homefourth-imagebox{
+                    height: 100%;
+                    width: 100%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: fill;
+                    }
+                }
+                .homefourth-content{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    height: 30%;
+                    width: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    opacity: 0;
+                    transition: all .4s ease-in-out 0s;
+                    h1{
+                        font-weight: normal;
+                        font-size: $font-large;
+                        color: $color-three;
+                    }
+                    .fourth-buttonbox{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-two;
+                        transition: all ease-in-out .2s;
+                        a{
+                            font-size: $font-small;
+                        }
+                    }
+                    .fourth-buttonbox:hover{
+                        background-color: $color-two;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+                //HOVER
+            .homefourth-container-one-boxone:hover .homefourth-overlay {
+                opacity: 1;
+                transition: all ease-in-out .3s;
+            }
+            .homefourth-container-one-boxone:hover .homefourth-content{
+                opacity: 1;
+                transition: all ease-in-out .3s;
+            }
+                //HOVER
+            //ONE
+
+            //TWO
+            .homefourth-container-one-boxtwo{
+                position: relative;
+                width: 40%;
+                height: 95%;
+                .homefourth-overlay{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    opacity: 0;
+                    transition: all .4s ease-in-out 0s;
+                    background-color: rgba(12, 14, 12, 0.9);
+                }
+                .homefourth-imagebox{
+                    height: 100%;
+                    width: 100%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: fill;
+                    }
+                }
+                .homefourth-content{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    height: 30%;
+                    width: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    opacity: 0;
+                    transition: all .4s ease-in-out 0s;
+                    h1{
+                        font-weight: normal;
+                        font-size: $font-large;
+                        color: $color-three;
+                    }
+                    .fourth-buttonbox{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-two;
+                        transition: all ease-in-out .2s;
+                        a{
+                            font-size: $font-small;
+                        }
+                    }
+                    .fourth-buttonbox:hover{
+                        background-color: $color-two;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+                //HOVER
+                .homefourth-container-one-boxtwo:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-one-boxtwo:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                //HOVER
+            //TWO
+        }
+        //ONE
+
+        //TWO
+        .homefourth-container-two{
+            width: 100%;
+            height: 47.5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            //ONE
+            .homefourth-container-two-boxone{
+                position: relative;
+                width: 50%;
+                height: 95%;
+                .homefourth-overlay{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    opacity: 0;
+                    transition: all .4s ease-in-out 0s;
+                    background-color: rgba(12, 14, 12, 0.9);
+                }
+                .homefourth-imagebox{
+                    height: 100%;
+                    width: 100%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: fill;
+                    }
+                }
+                .homefourth-content{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    height: 30%;
+                    width: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    opacity: 0;
+                    transition: all .4s ease-in-out 0s;
+                    h1{
+                        font-weight: normal;
+                        font-size: $font-large;
+                        color: $color-three;
+                    }
+                    .fourth-buttonbox{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-two;
+                        transition: all ease-in-out .2s;
+                        a{
+                            font-size: $font-small;
+                        }
+                    }
+                    .fourth-buttonbox:hover{
+                        background-color: $color-two;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+                //HOVER
+            .homefourth-container-two-boxone:hover .homefourth-overlay {
+                opacity: 1;
+                transition: all ease-in-out .3s;
+            }
+            .homefourth-container-two-boxone:hover .homefourth-content{
+                opacity: 1;
+                transition: all ease-in-out .3s;
+            }
+                //HOVER
+            //ONE
+            
+            //TWO
+            .homefourth-container-two-boxtwo{
+                width: 40%;
+                height: 95%;
+                position: relative;
+                .homefourth-overlay{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    left: 0;
+                    top: 0;
+                    bottom: 0;
+                    right: 0;
+                    opacity: 0;
+                    transition: all .4s ease-in-out 0s;
+                    background-color: rgba(12, 14, 12, 0.9);
+                }
+                .homefourth-imagebox{
+                    height: 100%;
+                    width: 100%;
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: fill;
+                    }
+                }
+                .homefourth-content{
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    height: 30%;
+                    width: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    align-items: center;
+                    opacity: 0;
+                    transition: all .4s ease-in-out 0s;
+                    h1{
+                        font-weight: normal;
+                        font-size: $font-large;
+                        color: $color-three;
+                    }
+                    .fourth-buttonbox{
+                        width: 150px;
+                        height: 50px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid $color-two;
+                        transition: all ease-in-out .2s;
+                        a{
+                            font-size: $font-small;
+                        }
+                    }
+                    .fourth-buttonbox:hover{
+                        background-color: $color-two;
+                        transition: all ease-in-out .2s;
+                    }
+                }
+            }
+                //HOVER
+            .homefourth-container-two-boxtwo:hover .homefourth-overlay {
+                opacity: 1;
+                transition: all ease-in-out .3s;
+            }
+            .homefourth-container-two-boxtwo:hover .homefourth-content{
+                opacity: 1;
+                transition: all ease-in-out .3s;
+            }
+                //HOVER
+
+            //TWO
+        }
+        //TWO
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+    .homefourth{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        .homefourth-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            .homefourth-container-titlebox{
+               height: 5%;
+               width: 100%;
+               display: flex;
+               align-items: flex-start; 
+               h1{
+                font-weight: normal;
+                font-size: $font-large;
+                color: $color-two;
+               }
+            }
+            //ONE
+            .homefourth-container-one{
+                width: 100%;
+                height: 47.5%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                //ONE
+                .homefourth-container-one-boxone{
+                    position: relative;
+                    width: 50%;
+                    height: 95%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-one-boxone:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-one-boxone:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+                //ONE
+    
+                //TWO
+                .homefourth-container-one-boxtwo{
+                    position: relative;
+                    width: 40%;
+                    height: 95%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                    .homefourth-container-one-boxtwo:hover .homefourth-overlay {
+                        opacity: 1;
+                        transition: all ease-in-out .3s;
+                    }
+                    .homefourth-container-one-boxtwo:hover .homefourth-content{
+                        opacity: 1;
+                        transition: all ease-in-out .3s;
+                    }
+                    //HOVER
+                //TWO
+            }
+            //ONE
+    
+            //TWO
+            .homefourth-container-two{
+                width: 100%;
+                height: 47.5%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                //ONE
+                .homefourth-container-two-boxone{
+                    position: relative;
+                    width: 50%;
+                    height: 95%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-two-boxone:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-two-boxone:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+                //ONE
+                
+                //TWO
+                .homefourth-container-two-boxtwo{
+                    width: 40%;
+                    height: 95%;
+                    position: relative;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-two-boxtwo:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-two-boxtwo:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+    
+                //TWO
+            }
+            //TWO
+        }
+    }
+}
+/*Desktop*/
+
+/*Small Desktop*/
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    .homefourth{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        z-index: 1;
+        .homefourth-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            .homefourth-container-titlebox{
+               height: 5%;
+               width: 100%;
+               display: flex;
+               align-items: flex-start; 
+               h1{
+                font-weight: normal;
+                font-size: $font-large;
+                color: $color-two;
+               }
+            }
+            //ONE
+            .homefourth-container-one{
+                width: 100%;
+                height: 47.5%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                //ONE
+                .homefourth-container-one-boxone{
+                    position: relative;
+                    width: 49%;
+                    height: 95%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-one-boxone:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-one-boxone:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+                //ONE
+    
+                //TWO
+                .homefourth-container-one-boxtwo{
+                    position: relative;
+                    width: 49%;
+                    height: 95%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                    .homefourth-container-one-boxtwo:hover .homefourth-overlay {
+                        opacity: 1;
+                        transition: all ease-in-out .3s;
+                    }
+                    .homefourth-container-one-boxtwo:hover .homefourth-content{
+                        opacity: 1;
+                        transition: all ease-in-out .3s;
+                    }
+                    //HOVER
+                //TWO
+            }
+            //ONE
+    
+            //TWO
+            .homefourth-container-two{
+                width: 100%;
+                height: 47.5%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                //ONE
+                .homefourth-container-two-boxone{
+                    position: relative;
+                    width: 49%;
+                    height: 95%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-two-boxone:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-two-boxone:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+                //ONE
+                
+                //TWO
+                .homefourth-container-two-boxtwo{
+                    width: 49%;
+                    height: 95%;
+                    position: relative;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-two-boxtwo:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-two-boxtwo:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+    
+                //TWO
+            }
+            //TWO
+        }
+    }
+}
+/*Small Desktop*/
+
+/*Ipad/Tablet*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    .homefourth{
+        width: 100%;
+        height: 1600px;
+        display: flex;
+        justify-content: center;
+        .homefourth-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            .homefourth-container-titlebox{
+               height: 2%;
+               width: 100%;
+               display: flex;
+               align-items: flex-start; 
+               h1{
+                font-weight: normal;
+                font-size: $font-large;
+                color: $color-two;
+               }
+            }
+            //ONE
+            .homefourth-container-one{
+                width: 100%;
+                height: 48%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-flow: column;
+                //ONE
+                .homefourth-container-one-boxone{
+                    position: relative;
+                    width: 100%;
+                    height: 49%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-one-boxone:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-one-boxone:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+                //ONE
+    
+                //TWO
+                .homefourth-container-one-boxtwo{
+                    position: relative;
+                    width: 100%;
+                    height: 49%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                    .homefourth-container-one-boxtwo:hover .homefourth-overlay {
+                        opacity: 1;
+                        transition: all ease-in-out .3s;
+                    }
+                    .homefourth-container-one-boxtwo:hover .homefourth-content{
+                        opacity: 1;
+                        transition: all ease-in-out .3s;
+                    }
+                    //HOVER
+                //TWO
+            }
+            //ONE
+    
+            //TWO
+            .homefourth-container-two{
+                width: 100%;
+                height: 48%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-flow: column;
+                //ONE
+                .homefourth-container-two-boxone{
+                    position: relative;
+                    width: 100%;
+                    height: 49%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-two-boxone:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-two-boxone:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+                //ONE
+                
+                //TWO
+                .homefourth-container-two-boxtwo{
+                    width: 100%;
+                    height: 49%;
+                    position: relative;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 100%;
+                        width: 100%;
+                        left: 0;
+                        top: 0;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-between;
+                        align-items: center;
+                        opacity: 0;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                        }
+                        .fourth-buttonbox{
+                            width: 150px;
+                            height: 50px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-two-boxtwo:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-two-boxtwo:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+    
+                //TWO
+            }
+            //TWO
+        }
+    }
+}
+/*Ipad/Tablet*/
+
+/*Mobile*/
+@media only screen and (max-width: 480px){
+    .homefourth{
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        justify-content: center;
+        .homefourth-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-between;
+            .homefourth-container-titlebox{
+               height: 2%;
+               width: 100%;
+               display: flex;
+               align-items: flex-start; 
+               h1{
+                font-weight: normal;
+                font-size: $font-large;
+                color: $color-two;
+               }
+            }
+            //ONE
+            .homefourth-container-one{
+                width: 100%;
+                height: 48%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-flow: column;
+                //ONE
+                .homefourth-container-one-boxone{
+                    position: relative;
+                    width: 100%;
+                    height: 49%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 30%;
+                        width: 100%;
+                        left: 0;
+                        top: 70%;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 1;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+                        opacity: 1;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                            margin-bottom: 10px;
+                        }
+                        .fourth-buttonbox{
+                            margin-bottom: 5px;
+                            width: 150px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-one-boxone:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-one-boxone:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+                //ONE
+    
+                //TWO
+                .homefourth-container-one-boxtwo{
+                    position: relative;
+                    width: 100%;
+                    height: 49%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 30%;
+                        width: 100%;
+                        left: 0;
+                        top: 70%;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 1;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+                        opacity: 1;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                            margin-bottom: 10px;
+                        }
+                        .fourth-buttonbox{
+                            margin-bottom: 5px;
+                            width: 150px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                    .homefourth-container-one-boxtwo:hover .homefourth-overlay {
+                        opacity: 1;
+                        transition: all ease-in-out .3s;
+                    }
+                    .homefourth-container-one-boxtwo:hover .homefourth-content{
+                        opacity: 1;
+                        transition: all ease-in-out .3s;
+                    }
+                    //HOVER
+                //TWO
+            }
+            //ONE
+    
+            //TWO
+            .homefourth-container-two{
+                width: 100%;
+                height: 48%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-flow: column;
+                //ONE
+                .homefourth-container-two-boxone{
+                    position: relative;
+                    width: 100%;
+                    height: 49%;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 30%;
+                        width: 100%;
+                        left: 0;
+                        top: 70%;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 1;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+                        opacity: 1;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                            margin-bottom: 10px;
+                        }
+                        .fourth-buttonbox{
+                            margin-bottom: 5px;
+                            width: 150px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-two-boxone:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-two-boxone:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+                //ONE
+                
+                //TWO
+                .homefourth-container-two-boxtwo{
+                    width: 100%;
+                    height: 49%;
+                    position: relative;
+                    .homefourth-overlay{
+                        position: absolute;
+                        height: 30%;
+                        width: 100%;
+                        left: 0;
+                        top: 70%;
+                        bottom: 0;
+                        right: 0;
+                        opacity: 1;
+                        transition: all .4s ease-in-out 0s;
+                        background-color: rgba(12, 14, 12, 0.9);
+                    }
+                    .homefourth-imagebox{
+                        height: 100%;
+                        width: 100%;
+                        img{
+                            height: 100%;
+                            width: 100%;
+                            object-fit: fill;
+                        }
+                    }
+                    .homefourth-content{
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: flex-end;
+                        align-items: flex-start;
+                        opacity: 1;
+                        transition: all .4s ease-in-out 0s;
+                        h1{
+                            font-weight: normal;
+                            font-size: $font-large;
+                            color: $color-three;
+                            margin-bottom: 10px;
+                        }
+                        .fourth-buttonbox{
+                            margin-bottom: 5px;
+                            width: 150px;
+                            height: 40px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border: 1px solid $color-two;
+                            transition: all ease-in-out .2s;
+                            a{
+                                font-size: $font-small;
+                            }
+                        }
+                        .fourth-buttonbox:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+                    //HOVER
+                .homefourth-container-two-boxtwo:hover .homefourth-overlay {
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                .homefourth-container-two-boxtwo:hover .homefourth-content{
+                    opacity: 1;
+                    transition: all ease-in-out .3s;
+                }
+                    //HOVER
+    
+                //TWO
+            }
+            //TWO
+        }
+    }
+}
+/*Mobile*/

@@ -1,0 +1,893 @@
+.aboutsecond{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    .aboutsecond-container{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        //ONE
+        .aboutsecond-container-one{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            .aboutsecond-container-one-titlebox{
+                width: 100%;
+                height: 10%;
+                display: flex;
+                align-items: center;
+                h1{
+                    color: $color-two;
+                    font-size: $font-large;
+                    font-weight: normal;
+                }
+            }
+            .aboutsecond-progress-bar{
+                width: 100%;
+                height: 15%;
+                display: flex;
+                justify-content: space-around;
+                flex-flow: column;
+                .aboutsecond-progress-bar-one{
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    position: relative;
+                    
+                    .aboutsecond-progress-bar-one-title{
+                        color: $color-three;
+                        font-size: $font-medium;
+                        font-family: $sub-text;
+                        letter-spacing: 0.1rem;
+                        line-height: 150%;
+                        width: 10%;
+                        height: 100%;
+                        display: flex;
+                        align-items: flex-end;
+                    }
+                    .aboutsecond-progress-bar-one-wrapper{
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        height: 100%;
+                        .aboutsecond-progress-bar-one-wrapper-numbermark{
+                            height: 25px;
+                            width: 40px;
+                            border-radius: 3px;
+                            background-color: $color-two;
+                            margin-left: -20px;
+                            position: absolute;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            .aboutsecond-progress-bar-one-wrapper-numbermark-percent{
+                                color: $color-three;
+                                font-size: $font-small;
+                                font-family: $sub-text;
+                            }
+                            .aboutsecond-progress-bar-one-wrapper-numbermark-downarrow{
+                                border-left: 5px solid transparent;
+                                border-right: 5px solid transparent;
+                                border-top: 5px solid $color-two;
+                                position: absolute;
+                                left: 50%;
+                                top: 100%; 
+                                transform: translateX(-50%);
+                               
+                            }
+                        }
+                    }
+                }
+                .aboutsecond-progress-bar-two{
+                    width: 100%;
+                    height: 30%;
+                    border: 1px solid $color-two;
+                    display: flex;
+                    .aboutsecond-progress-bar-two-content{
+                        height: 100%;
+                        width: 0%;
+                        background-color: $color-two;
+                    }
+                }
+            }  
+        
+
+       
+        }
+        //ONE
+
+        //TWO
+         .aboutsecond-container-two{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            .aboutsecond-container-two-titlebox{
+                height: 10%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                h1{
+                    color: $color-two;
+                    font-size: $font-large;
+                    font-weight: normal;
+                }
+            }
+            .aboutsecond-container-two-boxone{
+                width: 100%;
+                height: 45%;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-evenly;
+                .aboutsecond-container-two-boxone-title{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    height: 20%;
+                    width: 100%;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-medium;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: $font-small;
+                        
+                    }
+                }
+                p{
+                    text-align: justify;
+                }
+            }
+            .aboutsecond-container-two-boxtwo{
+                width: 100%;
+                height: 45%;
+                display: flex;
+                flex-flow: column;
+                justify-content: space-between;
+                .aboutsecond-container-two-boxtwo-title{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-end;
+                    height: 20%;
+                    width: 100%;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-medium;
+                        font-weight: bold;
+                    }
+                    p{
+                        font-size: $font-small;
+                        
+                    }
+                }
+                p{
+                    text-align: justify;
+                }
+            }
+        }
+        //TWO
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+    .aboutsecond{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        .aboutsecond-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            //ONE
+            .aboutsecond-container-one{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                .aboutsecond-container-one-titlebox{
+                    width: 100%;
+                    height: 10%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-large;
+                        font-weight: normal;
+                    }
+                }
+                .aboutsecond-progress-bar{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-flow: column;
+                    .aboutsecond-progress-bar-one{
+                        width: 100%;
+                        height: 50%;
+                        display: flex;
+                        position: relative;
+                        
+                        .aboutsecond-progress-bar-one-title{
+                            color: $color-three;
+                            font-size: $font-medium;
+                            font-family: $sub-text;
+                            letter-spacing: 0.1rem;
+                            line-height: 150%;
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: flex-end;
+                        }
+                        .aboutsecond-progress-bar-one-wrapper{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            .aboutsecond-progress-bar-one-wrapper-numbermark{
+                                height: 25px;
+                                width: 40px;
+                                border-radius: 3px;
+                                background-color: $color-two;
+                                margin-left: -20px;
+                                position: absolute;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                .aboutsecond-progress-bar-one-wrapper-numbermark-percent{
+                                    color: $color-three;
+                                    font-size: $font-small;
+                                    font-family: $sub-text;
+                                }
+                                .aboutsecond-progress-bar-one-wrapper-numbermark-downarrow{
+                                    border-left: 5px solid transparent;
+                                    border-right: 5px solid transparent;
+                                    border-top: 5px solid $color-two;
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 100%; 
+                                    transform: translateX(-50%);
+                                   
+                                }
+                            }
+                        }
+                    }
+                    .aboutsecond-progress-bar-two{
+                        width: 100%;
+                        height: 30%;
+                        border: 1px solid $color-two;
+                        display: flex;
+                        .aboutsecond-progress-bar-two-content{
+                            height: 100%;
+                            width: 0%;
+                            background-color: $color-two;
+                        }
+                    }
+                }  
+            
+    
+           
+            }
+            //ONE
+    
+            //TWO
+             .aboutsecond-container-two{
+                width: 40%;
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                .aboutsecond-container-two-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-large;
+                        font-weight: normal;
+                    }
+                }
+                .aboutsecond-container-two-boxone{
+                    width: 100%;
+                    height: 45%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .aboutsecond-container-two-boxone-title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        height: 20%;
+                        width: 100%;
+                        h1{
+                            color: $color-two;
+                            font-size: $font-medium;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: $font-small;
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+                .aboutsecond-container-two-boxtwo{
+                    width: 100%;
+                    height: 45%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .aboutsecond-container-two-boxtwo-title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        height: 20%;
+                        width: 100%;
+                        h1{
+                            color: $color-two;
+                            font-size: $font-medium;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: $font-small;
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Desktop*/
+
+/*Small Desktop*/
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    .aboutsecond{
+        width: 100%;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        .aboutsecond-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-flow: column;
+            //ONE
+            .aboutsecond-container-one{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: column;
+                .aboutsecond-container-one-titlebox{
+                    width: 100%;
+                    height: 10%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-large;
+                        font-weight: normal;
+                    }
+                }
+                .aboutsecond-progress-bar{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-flow: column;
+                    .aboutsecond-progress-bar-one{
+                        width: 100%;
+                        height: 50%;
+                        display: flex;
+                        position: relative;
+                        
+                        .aboutsecond-progress-bar-one-title{
+                            color: $color-three;
+                            font-size: $font-medium;
+                            font-family: $sub-text;
+                            letter-spacing: 0.1rem;
+                            line-height: 150%;
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: flex-end;
+                        }
+                        .aboutsecond-progress-bar-one-wrapper{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            .aboutsecond-progress-bar-one-wrapper-numbermark{
+                                height: 25px;
+                                width: 40px;
+                                border-radius: 3px;
+                                background-color: $color-two;
+                                margin-left: -20px;
+                                position: absolute;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                .aboutsecond-progress-bar-one-wrapper-numbermark-percent{
+                                    color: $color-three;
+                                    font-size: $font-small;
+                                    font-family: $sub-text;
+                                }
+                                .aboutsecond-progress-bar-one-wrapper-numbermark-downarrow{
+                                    border-left: 5px solid transparent;
+                                    border-right: 5px solid transparent;
+                                    border-top: 5px solid $color-two;
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 100%; 
+                                    transform: translateX(-50%);
+                                   
+                                }
+                            }
+                        }
+                    }
+                    .aboutsecond-progress-bar-two{
+                        width: 100%;
+                        height: 30%;
+                        border: 1px solid $color-two;
+                        display: flex;
+                        .aboutsecond-progress-bar-two-content{
+                            height: 100%;
+                            width: 0%;
+                            background-color: $color-two;
+                        }
+                    }
+                }  
+            
+    
+           
+            }
+            //ONE
+    
+            //TWO
+             .aboutsecond-container-two{
+                width: 100%;
+                height: 45%;
+                display: flex;
+                flex-flow: column;
+                .aboutsecond-container-two-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-large;
+                        font-weight: normal;
+                    }
+                }
+                .aboutsecond-container-two-boxone{
+                    width: 100%;
+                    height: 45%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .aboutsecond-container-two-boxone-title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        height: 20%;
+                        width: 100%;
+                        h1{
+                            color: $color-two;
+                            font-size: $font-medium;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: $font-small;
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+                .aboutsecond-container-two-boxtwo{
+                    width: 100%;
+                    height: 45%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .aboutsecond-container-two-boxtwo-title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        height: 20%;
+                        width: 100%;
+                        h1{
+                            color: $color-two;
+                            font-size: $font-medium;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: $font-small;
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Small Desktop*/
+
+/*Ipad/Tablet*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    .aboutsecond{
+        width: 100%;
+        height: 1200px;
+        display: flex;
+        justify-content: center;
+        .aboutsecond-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-flow: column;
+            //ONE
+            .aboutsecond-container-one{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: column;
+                .aboutsecond-container-one-titlebox{
+                    width: 100%;
+                    height: 10%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-large;
+                        font-weight: normal;
+                    }
+                }
+                .aboutsecond-progress-bar{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-flow: column;
+                    .aboutsecond-progress-bar-one{
+                        width: 100%;
+                        height: 50%;
+                        display: flex;
+                        position: relative;
+                        
+                        .aboutsecond-progress-bar-one-title{
+                            color: $color-three;
+                            font-size: $font-medium;
+                            font-family: $sub-text;
+                            letter-spacing: 0.1rem;
+                            line-height: 150%;
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: flex-end;
+                        }
+                        .aboutsecond-progress-bar-one-wrapper{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            .aboutsecond-progress-bar-one-wrapper-numbermark{
+                                height: 25px;
+                                width: 40px;
+                                border-radius: 3px;
+                                background-color: $color-two;
+                                margin-left: -20px;
+                                position: absolute;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                .aboutsecond-progress-bar-one-wrapper-numbermark-percent{
+                                    color: $color-three;
+                                    font-size: $font-small;
+                                    font-family: $sub-text;
+                                }
+                                .aboutsecond-progress-bar-one-wrapper-numbermark-downarrow{
+                                    border-left: 5px solid transparent;
+                                    border-right: 5px solid transparent;
+                                    border-top: 5px solid $color-two;
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 100%; 
+                                    transform: translateX(-50%);
+                                   
+                                }
+                            }
+                        }
+                    }
+                    .aboutsecond-progress-bar-two{
+                        width: 100%;
+                        height: 30%;
+                        border: 1px solid $color-two;
+                        display: flex;
+                        .aboutsecond-progress-bar-two-content{
+                            height: 100%;
+                            width: 0%;
+                            background-color: $color-two;
+                        }
+                    }
+                }  
+            
+    
+           
+            }
+            //ONE
+    
+            //TWO
+             .aboutsecond-container-two{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: column;
+                .aboutsecond-container-two-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: flex-end;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-large;
+                        font-weight: normal;
+                    }
+                }
+                .aboutsecond-container-two-boxone{
+                    width: 100%;
+                    height: 45%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .aboutsecond-container-two-boxone-title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        height: 20%;
+                        width: 100%;
+                        h1{
+                            color: $color-two;
+                            font-size: $font-medium;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: $font-small;
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+                .aboutsecond-container-two-boxtwo{
+                    width: 100%;
+                    height: 45%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .aboutsecond-container-two-boxtwo-title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        height: 20%;
+                        width: 100%;
+                        h1{
+                            color: $color-two;
+                            font-size: $font-medium;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: $font-small;
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Ipad/Tablet*/
+
+/*Mobile*/
+@media only screen and (max-width: 480px){
+    .aboutsecond{
+        width: 100%;
+        height: 1300px;
+        display: flex;
+        justify-content: center;
+        .aboutsecond-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            flex-flow: column;
+            //ONE
+            .aboutsecond-container-one{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: column;
+                .aboutsecond-container-one-titlebox{
+                    width: 100%;
+                    height: 10%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-large;
+                        font-weight: normal;
+                    }
+                }
+                .aboutsecond-progress-bar{
+                    width: 100%;
+                    height: 15%;
+                    display: flex;
+                    justify-content: space-around;
+                    flex-flow: column;
+                    .aboutsecond-progress-bar-one{
+                        width: 100%;
+                        height: 50%;
+                        display: flex;
+                        position: relative;
+                        
+                        .aboutsecond-progress-bar-one-title{
+                            color: $color-three;
+                            font-size: $font-medium;
+                            font-family: $sub-text;
+                            letter-spacing: 0.1rem;
+                            line-height: 150%;
+                            width: 10%;
+                            height: 100%;
+                            display: flex;
+                            align-items: flex-end;
+                        }
+                        .aboutsecond-progress-bar-one-wrapper{
+                            display: flex;
+                            align-items: center;
+                            width: 100%;
+                            height: 100%;
+                            .aboutsecond-progress-bar-one-wrapper-numbermark{
+                                height: 25px;
+                                width: 40px;
+                                border-radius: 3px;
+                                background-color: $color-two;
+                                margin-left: -20px;
+                                position: absolute;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                .aboutsecond-progress-bar-one-wrapper-numbermark-percent{
+                                    color: $color-three;
+                                    font-size: $font-small;
+                                    font-family: $sub-text;
+                                }
+                                .aboutsecond-progress-bar-one-wrapper-numbermark-downarrow{
+                                    border-left: 5px solid transparent;
+                                    border-right: 5px solid transparent;
+                                    border-top: 5px solid $color-two;
+                                    position: absolute;
+                                    left: 50%;
+                                    top: 100%; 
+                                    transform: translateX(-50%);
+                                   
+                                }
+                            }
+                        }
+                    }
+                    .aboutsecond-progress-bar-two{
+                        width: 100%;
+                        height: 30%;
+                        border: 1px solid $color-two;
+                        display: flex;
+                        .aboutsecond-progress-bar-two-content{
+                            height: 100%;
+                            width: 0%;
+                            background-color: $color-two;
+                        }
+                    }
+                }  
+            
+    
+           
+            }
+            //ONE
+    
+            //TWO
+             .aboutsecond-container-two{
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-flow: column;
+                .aboutsecond-container-two-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: flex-end;
+                    h1{
+                        color: $color-two;
+                        font-size: $font-large;
+                        font-weight: normal;
+                    }
+                }
+                .aboutsecond-container-two-boxone{
+                    width: 100%;
+                    height: 45%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .aboutsecond-container-two-boxone-title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        height: 20%;
+                        width: 100%;
+                        h1{
+                            color: $color-two;
+                            font-size: $font-medium;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: $font-small;
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+                .aboutsecond-container-two-boxtwo{
+                    width: 100%;
+                    height: 45%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: space-between;
+                    .aboutsecond-container-two-boxtwo-title{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        height: 20%;
+                        width: 100%;
+                        h1{
+                            color: $color-two;
+                            font-size: $font-medium;
+                            font-weight: bold;
+                        }
+                        p{
+                            font-size: $font-small;
+                            
+                        }
+                    }
+                    p{
+                        text-align: justify;
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Mobile*/

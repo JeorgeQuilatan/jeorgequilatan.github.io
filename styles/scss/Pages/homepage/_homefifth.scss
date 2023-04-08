@@ -1,0 +1,797 @@
+.homefifth{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    .homefifth-container{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        //ONE
+        .homefifth-container-one{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            .homefifth-container-one-titlebox{
+                height: 10%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                h1{
+                    color: $color-two;
+                    font-weight: normal;
+                    font-size: $font-large;
+                }
+            }
+            .homefifth-container-one-svgbox{
+                height: 20%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                svg{
+                    fill:$color-two;
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 15px;
+                }
+            }
+            .homefifth-container-one-textbox{
+                width: 100%;
+                height: 70%;
+                display: flex;
+                align-items: flex-start;
+                p{
+                    text-align: justify;
+                    font-size: $font-medium;
+                }
+            }
+        }
+        //ONE
+
+        //TWO
+        .homefifth-container-two{
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            .homefifth-container-two-titlebox{
+                height: 10%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                h1{
+                    color: $color-two;
+                    font-weight: normal;
+                    font-size: $font-large;
+                }
+            }
+            .homefifth-container-two-emailbox{
+                height: 90%;
+                width: 100%;
+                form{
+                    height: 100%;
+                    width: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    .name-box{
+                        width: 100%;
+                        height: 20%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-evenly;
+                        p{
+                            font-size: $font-medium;
+                        }
+                        input{
+                            height: 25px;
+                            width: 100%;
+                            background:transparent;
+                            border: 1px solid $color-two;
+                        }
+                    }
+                    .email-box{
+                        width: 100%;
+                        height: 20%;
+                        display: flex;
+                        flex-flow: column;
+                        justify-content: space-evenly;
+                        p{
+                            font-size: $font-medium;
+                        }
+                        input{
+                            height: 30px;
+                            width: 100%;
+                            background:transparent;
+                            border: 1px solid $color-two;
+                        }
+                    }
+                    .message-box{
+                        width: 100%;
+                        height: 40%;
+                        display: flex;
+                        align-items: flex-end;
+                        
+                        textarea{
+                            height: 95%;
+                            width: 100%;
+                            resize: none;
+                            background:transparent;
+                            border: none;
+                            color: $color-three;
+                            border: 1px solid $color-two;
+                        }
+                    }
+                    .submit-box{
+                        width: 100%;
+                        height: 20%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: flex-end;
+                        button{
+                            width: 150px;
+                            height: 50px;
+                            background-color: transparent;
+                            border: 1px solid $color-two;
+                            color: $color-three;
+                            font-family: $sub-text;
+                            font-weight: normal;
+                            font-size: $font-small;
+                            letter-spacing: 0.1rem;
+                            line-height: 150%;
+                            transition: all ease-in-out .2s;
+                        }
+                        button:hover{
+                            background-color: $color-two;
+                            transition: all ease-in-out .2s;
+                        }
+                    }
+                }
+            }
+        }
+        //TWO
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+    .homefifth{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        .homefifth-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            //ONE
+            .homefifth-container-one{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                .homefifth-container-one-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-weight: normal;
+                        font-size: $font-large;
+                    }
+                }
+                .homefifth-container-one-svgbox{
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    svg{
+                        fill:$color-two;
+                        width: 40px;
+                        height: 40px;
+                        margin-right: 15px;
+                    }
+                }
+                .homefifth-container-one-textbox{
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    align-items: flex-start;
+                    p{
+                        text-align: justify;
+                        font-size: $font-medium;
+                    }
+                }
+            }
+            //ONE
+    
+            //TWO
+            .homefifth-container-two{
+                width: 40%;
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                .homefifth-container-two-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-weight: normal;
+                        font-size: $font-large;
+                    }
+                }
+                .homefifth-container-two-emailbox{
+                    height: 90%;
+                    width: 100%;
+                    form{
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        .name-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: space-evenly;
+                            p{
+                                font-size: $font-medium;
+                            }
+                            input{
+                                height: 25px;
+                                width: 100%;
+                                background:transparent;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .email-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: space-evenly;
+                            p{
+                                font-size: $font-medium;
+                            }
+                            input{
+                                height: 30px;
+                                width: 100%;
+                                background:transparent;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .message-box{
+                            width: 100%;
+                            height: 40%;
+                            display: flex;
+                            align-items: flex-end;
+                            
+                            textarea{
+                                height: 95%;
+                                width: 100%;
+                                resize: none;
+                                background:transparent;
+                                border: none;
+                                color: $color-three;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .submit-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            button{
+                                width: 150px;
+                                height: 50px;
+                                background-color: transparent;
+                                border: 1px solid $color-two;
+                                color: $color-three;
+                                font-family: $sub-text;
+                                font-weight: normal;
+                                font-size: $font-small;
+                                letter-spacing: 0.1rem;
+                                line-height: 150%;
+                                transition: all ease-in-out .2s;
+                            }
+                            button:hover{
+                                background-color: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Desktop*/
+
+/*Small Desktop*/
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    .homefifth{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        .homefifth-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            //ONE
+            .homefifth-container-one{
+                width: 49%;
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                .homefifth-container-one-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-weight: normal;
+                        font-size: $font-large;
+                    }
+                }
+                .homefifth-container-one-svgbox{
+                    height: 20%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    svg{
+                        fill:$color-two;
+                        width: 40px;
+                        height: 40px;
+                        margin-right: 15px;
+                    }
+                }
+                .homefifth-container-one-textbox{
+                    width: 100%;
+                    height: 70%;
+                    display: flex;
+                    align-items: flex-start;
+                    p{
+                        text-align: justify;
+                        font-size: $font-medium;
+                    }
+                }
+            }
+            //ONE
+    
+            //TWO
+            .homefifth-container-two{
+                width: 49%;
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                .homefifth-container-two-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-weight: normal;
+                        font-size: $font-large;
+                    }
+                }
+                .homefifth-container-two-emailbox{
+                    height: 90%;
+                    width: 100%;
+                    form{
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        .name-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: space-evenly;
+                            p{
+                                font-size: $font-medium;
+                            }
+                            input{
+                                height: 25px;
+                                width: 100%;
+                                background:transparent;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .email-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: space-evenly;
+                            p{
+                                font-size: $font-medium;
+                            }
+                            input{
+                                height: 30px;
+                                width: 100%;
+                                background:transparent;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .message-box{
+                            width: 100%;
+                            height: 40%;
+                            display: flex;
+                            align-items: flex-end;
+                            
+                            textarea{
+                                height: 95%;
+                                width: 100%;
+                                resize: none;
+                                background:transparent;
+                                border: none;
+                                color: $color-three;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .submit-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-end;
+                            button{
+                                width: 150px;
+                                height: 50px;
+                                background-color: transparent;
+                                border: 1px solid $color-two;
+                                color: $color-three;
+                                font-family: $sub-text;
+                                font-weight: normal;
+                                font-size: $font-small;
+                                letter-spacing: 0.1rem;
+                                line-height: 150%;
+                                transition: all ease-in-out .2s;
+                            }
+                            button:hover{
+                                background-color: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Small Desktop*/
+
+/*Ipad/Tablet*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    .homefifth{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        .homefifth-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column-reverse;
+            justify-content: space-between;
+            //ONE
+            .homefifth-container-one{
+                width: 100%;
+                height: 30%;
+                display: flex;
+                flex-flow: column;
+                .homefifth-container-one-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-weight: normal;
+                        font-size: $font-large;
+                    }
+                }
+                .homefifth-container-one-svgbox{
+                    height: 50%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    svg{
+                        fill:$color-two;
+                        width: 40px;
+                        height: 40px;
+                        margin-right: 15px;
+                    }
+                }
+                .homefifth-container-one-textbox{
+                    width: 100%;
+                    height: 40%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        text-align: justify;
+                        font-size: $font-medium;
+                    }
+                }
+            }
+            //ONE
+    
+            //TWO
+            .homefifth-container-two{
+                width: 100%;
+                height: 65%;
+                display: flex;
+                flex-flow: column;
+                .homefifth-container-two-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-weight: normal;
+                        font-size: $font-large;
+                    }
+                }
+                .homefifth-container-two-emailbox{
+                    height: 90%;
+                    width: 100%;
+                    form{
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        .name-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: space-evenly;
+                            p{
+                                font-size: $font-medium;
+                            }
+                            input{
+                                height: 25px;
+                                width: 100%;
+                                background:transparent;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .email-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: space-evenly;
+                            p{
+                                font-size: $font-medium;
+                            }
+                            input{
+                                height: 30px;
+                                width: 100%;
+                                background:transparent;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .message-box{
+                            width: 100%;
+                            height: 40%;
+                            display: flex;
+                            align-items: flex-end;
+                            
+                            textarea{
+                                height: 95%;
+                                width: 100%;
+                                resize: none;
+                                background:transparent;
+                                border: none;
+                                color: $color-three;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .submit-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            button{
+                                width: 150px;
+                                height: 50px;
+                                background-color: transparent;
+                                border: 1px solid $color-two;
+                                color: $color-three;
+                                font-family: $sub-text;
+                                font-weight: normal;
+                                font-size: $font-small;
+                                letter-spacing: 0.1rem;
+                                line-height: 150%;
+                                transition: all ease-in-out .2s;
+                            }
+                            button:hover{
+                                background-color: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Ipad/Tablet*/
+
+/*Mobile*/
+@media only screen and (max-width: 480px){
+    .homefifth{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        justify-content: center;
+        .homefifth-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column-reverse;
+            justify-content: space-between;
+            //ONE
+            .homefifth-container-one{
+                width: 100%;
+                height: 30%;
+                display: flex;
+                flex-flow: column;
+                .homefifth-container-one-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-weight: normal;
+                        font-size: $font-large;
+                    }
+                }
+                .homefifth-container-one-svgbox{
+                    height: 50%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    svg{
+                        fill:$color-two;
+                        width: 40px;
+                        height: 40px;
+                        margin-right: 15px;
+                    }
+                }
+                .homefifth-container-one-textbox{
+                    width: 100%;
+                    height: 40%;
+                    display: flex;
+                    align-items: center;
+                    p{
+                        text-align: justify;
+                        font-size: $font-medium;
+                    }
+                }
+            }
+            //ONE
+    
+            //TWO
+            .homefifth-container-two{
+                width: 100%;
+                height: 65%;
+                display: flex;
+                flex-flow: column;
+                .homefifth-container-two-titlebox{
+                    height: 10%;
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    h1{
+                        color: $color-two;
+                        font-weight: normal;
+                        font-size: $font-large;
+                    }
+                }
+                .homefifth-container-two-emailbox{
+                    height: 90%;
+                    width: 100%;
+                    form{
+                        height: 100%;
+                        width: 100%;
+                        display: flex;
+                        flex-flow: column;
+                        .name-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: space-evenly;
+                            p{
+                                font-size: $font-medium;
+                            }
+                            input{
+                                height: 25px;
+                                width: 100%;
+                                background:transparent;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .email-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            flex-flow: column;
+                            justify-content: space-evenly;
+                            p{
+                                font-size: $font-medium;
+                            }
+                            input{
+                                height: 30px;
+                                width: 100%;
+                                background:transparent;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .message-box{
+                            width: 100%;
+                            height: 40%;
+                            display: flex;
+                            align-items: flex-end;
+                            
+                            textarea{
+                                height: 95%;
+                                width: 100%;
+                                resize: none;
+                                background:transparent;
+                                border: none;
+                                color: $color-three;
+                                border: 1px solid $color-two;
+                            }
+                        }
+                        .submit-box{
+                            width: 100%;
+                            height: 20%;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            button{
+                                width: 150px;
+                                height: 50px;
+                                background-color: transparent;
+                                border: 1px solid $color-two;
+                                color: $color-three;
+                                font-family: $sub-text;
+                                font-weight: normal;
+                                font-size: $font-small;
+                                letter-spacing: 0.1rem;
+                                line-height: 150%;
+                                transition: all ease-in-out .2s;
+                            }
+                            button:hover{
+                                background-color: $color-two;
+                                transition: all ease-in-out .2s;
+                            }
+                        }
+                    }
+                }
+            }
+            //TWO
+        }
+    }
+}
+/*Mobile*/

@@ -1,0 +1,175 @@
+.portfolionav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    .portfolionav-container{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        button{
+            width: 150px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            transition: all ease-in-out .2s;
+            font-size: $font-small;
+            background-color: $color-one;
+            color: $color-three;
+            font-family: $sub-text;
+            letter-spacing: 0.1rem;
+            line-height: 150%;
+        }
+        .active,button:hover{
+            border-bottom: 1px solid $color-two;
+            transition: all ease-in-out .2s;
+        }
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+    .portfolionav{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        .portfolionav-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            button{
+                width: 150px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                transition: all ease-in-out .2s;
+                font-size: $font-small;
+                background-color: $color-one;
+                color: $color-three;
+                font-family: $sub-text;
+                letter-spacing: 0.1rem;
+                line-height: 150%;
+            }
+            .active,button:hover{
+                border-bottom: 1px solid $color-two;
+                transition: all ease-in-out .2s;
+            }
+        }
+    }
+}
+/*Desktop*/
+
+/*Small Desktop*/
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    .portfolionav{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        .portfolionav-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            button{
+                width: 150px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                transition: all ease-in-out .2s;
+                font-size: $font-small;
+                background-color: $color-one;
+                color: $color-three;
+                font-family: $sub-text;
+                letter-spacing: 0.1rem;
+                line-height: 150%;
+            }
+            .active,button:hover{
+                border-bottom: 1px solid $color-two;
+                transition: all ease-in-out .2s;
+            }
+        }
+    }
+}
+/*Small Desktop*/
+
+/*Ipad/Tablet*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    .portfolionav{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        .portfolionav-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            button{
+                width: 150px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                transition: all ease-in-out .2s;
+                font-size: $font-small;
+                background-color: $color-one;
+                color: $color-three;
+                font-family: $sub-text;
+                letter-spacing: 0.1rem;
+                line-height: 150%;
+            }
+            .active,button:hover{
+                border-bottom: 1px solid $color-two;
+                transition: all ease-in-out .2s;
+            }
+        }
+    }
+}
+/*Ipad/Tablet*/
+
+/*Mobile*/
+@media only screen and (max-width: 480px){
+    .portfolionav{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        .portfolionav-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            button{
+                width: 100px;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+                transition: all ease-in-out .2s;
+                font-size: $font-small;
+                background-color: $color-one;
+                color: $color-three;
+                font-family: $sub-text;
+                letter-spacing: 0.1rem;
+                line-height: 150%;
+            }
+            .active,button:hover{
+                border-bottom: 1px solid $color-two;
+                transition: all ease-in-out .2s;
+            }
+        }
+    }
+}
+/*Mobile*/

@@ -1,0 +1,331 @@
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    .header-container{
+        width: 80%;
+        height: 100%;
+        display: flex;
+        .header-container-navone{
+            height: 100%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            a{
+                margin-right: 150px;
+                font-size: $font-medium;
+                transition: all ease-in-out .2s;
+            }
+            a:hover{
+                transition: all ease-in-out .2s;
+                scale: 1.1;
+            }
+        }
+        .logofont{
+            height: 100%;
+            width: 10%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: $header-text;
+            font-weight: bold;
+            font-size: 2.5rem;
+            color: $color-two;
+        }
+        .header-container-mobileicon{
+            display: none;
+        }
+        .header-container-navtwo{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            a{
+                margin-left: 150px;
+                font-size: $font-medium;
+                transition: all ease-in-out .2s;
+            }
+            a:hover{
+                transition: all ease-in-out .2s;
+                scale: 1.1;
+            }
+        }
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+    header{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        .header-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            .header-container-navone{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                a{
+                    margin-right: 100px;
+                    font-size: $font-medium;
+                    transition: all ease-in-out .2s;
+                }
+                a:hover{
+                    transition: all ease-in-out .2s;
+                    scale: 1.1;
+                }
+            }
+            .logofont{
+                height: 100%;
+                width: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: $header-text;
+                font-weight: bold;
+                font-size: 2.5rem;
+                color: $color-two;
+            }
+            .header-container-mobileicon{
+                display: none;
+            }
+            .header-container-navtwo{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                a{
+                    margin-left: 100px;
+                    font-size: $font-medium;
+                    transition: all ease-in-out .2s;
+                }
+                a:hover{
+                    transition: all ease-in-out .2s;
+                    scale: 1.1;
+                }
+            }
+        }
+    }
+}
+/*Desktop*/
+
+/*Small Desktop*/
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    header{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        .header-container{
+            width: 90%;
+            height: 100%;
+            display: flex;
+            .header-container-navone{
+                height: 100%;
+                width: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                a{
+                    margin-right: 50px;
+                    font-size: $font-medium;
+                    transition: all ease-in-out .2s;
+                }
+                a:hover{
+                    transition: all ease-in-out .2s;
+                    scale: 1.1;
+                }
+            }
+            .logofont{
+                height: 100%;
+                width: 10%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-family: $header-text;
+                font-weight: bold;
+                font-size: 2.5rem;
+                color: $color-two;
+            }
+            .header-container-mobileicon{
+                display: none;
+            }
+            .header-container-navtwo{
+                width: 50%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                a{
+                    margin-left: 50px;
+                    font-size: $font-medium;
+                    transition: all ease-in-out .2s;
+                }
+                a:hover{
+                    transition: all ease-in-out .2s;
+                    scale: 1.1;
+                }
+            }
+        }
+    }
+}
+/*Small Desktop*/
+
+/*Ipad/Tablet*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    header{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        background-color: $color-one;
+        
+        .header-container{
+            width: 90%;
+            height: 100%;
+            .header-container-navone{
+                height: 100%;
+                width: 50%;
+                display: none;
+                align-items: center;
+                justify-content: flex-start;
+                a{
+                    margin-right: 50px;
+                    font-size: $font-medium;
+                    transition: all ease-in-out .2s;
+                }
+                a:hover{
+                    transition: all ease-in-out .2s;
+                    scale: 1.1;
+                }
+            }
+            .logofont{
+                height: 100%;
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                font-family: $header-text;
+                font-weight: bold;
+                font-size: 2.5rem;
+                color: $color-two;
+            }
+            .header-container-mobileicon{
+                width: 10%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                svg{
+                    fill: $color-three;
+                    width: 28px;
+                    height: 25px;
+                }
+                #up{
+                    display: none;
+                }
+            }
+            .header-container-navtwo{
+                width: 50%;
+                height: 100%;
+                display: none;
+                align-items: center;
+                justify-content: flex-end;
+                a{
+                    margin-left: 50px;
+                    font-size: $font-medium;
+                    transition: all ease-in-out .2s;
+                }
+                a:hover{
+                    transition: all ease-in-out .2s;
+                    scale: 1.1;
+                }
+            }
+        }
+    }
+}
+/*Ipad/Tablet*/
+
+/*Mobile*/
+@media only screen and (max-width: 480px){
+    header{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        background-color: $color-one;
+        
+        .header-container{
+            width: 90%;
+            height: 100%;
+            .header-container-navone{
+                height: 100%;
+                width: 50%;
+                display: none;
+                align-items: center;
+                justify-content: flex-start;
+                a{
+                    margin-right: 50px;
+                    font-size: $font-medium;
+                    transition: all ease-in-out .2s;
+                }
+                a:hover{
+                    transition: all ease-in-out .2s;
+                    scale: 1.1;
+                }
+            }
+            .logofont{
+                height: 100%;
+                width: 90%;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                font-family: $header-text;
+                font-weight: bold;
+                font-size: 2.5rem;
+                color: $color-two;
+            }
+            .header-container-mobileicon{
+                width: 10%;
+                height: 100%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                svg{
+                    fill: $color-three;
+                    width: 28px;
+                    height: 25px;
+                }
+                #up{
+                    display: none;
+                }
+            }
+            .header-container-navtwo{
+                width: 50%;
+                height: 100%;
+                display: none;
+                align-items: center;
+                justify-content: flex-end;
+                a{
+                    margin-left: 50px;
+                    font-size: $font-medium;
+                    transition: all ease-in-out .2s;
+                }
+                a:hover{
+                    transition: all ease-in-out .2s;
+                    scale: 1.1;
+                }
+            }
+        }
+    }
+}
+/*Mobile*/

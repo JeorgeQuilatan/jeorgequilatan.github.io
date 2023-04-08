@@ -1,0 +1,121 @@
+footer{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    .footer-container{
+        border-top: 1px solid $color-two;
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1{
+            color: $color-two;
+            font-size: $font-medium;
+        }
+    }
+}
+
+/*Desktop*/
+@media only screen and (min-width: 1025px) and (max-width:1200px){
+    footer{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+       
+        .footer-container{
+            border-top: 1px solid $color-two;
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                color: $color-two;
+                font-size: $font-medium;
+            }
+        }
+    }
+}
+/*Desktop*/
+
+/*Small Desktop*/
+@media only screen and (min-width: 769px) and (max-width:1024px){
+    footer{
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+       
+        .footer-container{
+            border-top: 1px solid $color-two;
+            width: 90%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h1{
+                color: $color-two;
+                font-size: $font-medium;
+            }
+        }
+    }
+}
+/*Small Desktop*/
+
+/*Ipad/Tablet*/
+@media only screen and (min-width: 481px) and (max-width:768px){
+    footer{
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+       
+        .footer-container{
+            border-top: 1px solid $color-two;
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            h1{
+                color: $color-two;
+                font-size: $font-medium;
+            }
+        }
+    }
+}
+/*Ipad/Tablet*/
+
+/*Mobile*/
+@media only screen and (max-width: 480px){
+    footer{
+        width: 100%;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+       
+        .footer-container{
+            border-top: 1px solid $color-two;
+            width: 90%;
+            height: 100%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            h1{
+                color: $color-two;
+                font-size: $font-medium;
+            }
+        }
+    }
+}
+/*Mobile*/
