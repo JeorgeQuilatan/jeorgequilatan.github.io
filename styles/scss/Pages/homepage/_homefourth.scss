@@ -1060,13 +1060,13 @@
                     height: 49%;
                     .homefourth-overlay{
                         position: absolute;
-                        height: 100%;
+                        height: 40%;
                         width: 100%;
                         left: 0;
-                        top: 0;
+                        top: 60%;
                         bottom: 0;
                         right: 0;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         background-color: rgba(12, 14, 12, 0.9);
                     }
@@ -1081,23 +1081,25 @@
                     }
                     .homefourth-content{
                         position: absolute;
-                        top: 50%;
+                        top: 81%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         height: 30%;
                         width: 100%;
                         display: flex;
                         flex-flow: column;
-                        justify-content: space-between;
+                        justify-content: space-around;
                         align-items: center;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         h1{
-                            font-weight: normal;
+                            font-weight: bold;
                             font-size: $font-large;
                             color: $color-three;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
                         }
-                        .fourth-buttonbox{
+                        .portfolio-buttonbox{
                             width: 150px;
                             height: 50px;
                             display: flex;
@@ -1106,10 +1108,15 @@
                             border: 1px solid $color-two;
                             transition: all ease-in-out .2s;
                             a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 font-size: $font-small;
                             }
                         }
-                        .fourth-buttonbox:hover{
+                        .portfolio-buttonbox:hover{
                             background-color: $color-two;
                             transition: all ease-in-out .2s;
                         }
@@ -1134,13 +1141,13 @@
                     height: 49%;
                     .homefourth-overlay{
                         position: absolute;
-                        height: 100%;
+                        height: 40%;
                         width: 100%;
                         left: 0;
-                        top: 0;
+                        top: 60%;
                         bottom: 0;
                         right: 0;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         background-color: rgba(12, 14, 12, 0.9);
                     }
@@ -1155,23 +1162,25 @@
                     }
                     .homefourth-content{
                         position: absolute;
-                        top: 50%;
+                        top: 81%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         height: 30%;
                         width: 100%;
                         display: flex;
                         flex-flow: column;
-                        justify-content: space-between;
+                        justify-content: space-around;
                         align-items: center;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         h1{
-                            font-weight: normal;
+                            font-weight: bold;
                             font-size: $font-large;
                             color: $color-three;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
                         }
-                        .fourth-buttonbox{
+                        .portfolio-buttonbox{
                             width: 150px;
                             height: 50px;
                             display: flex;
@@ -1180,10 +1189,15 @@
                             border: 1px solid $color-two;
                             transition: all ease-in-out .2s;
                             a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 font-size: $font-small;
                             }
                         }
-                        .fourth-buttonbox:hover{
+                        .portfolio-buttonbox:hover{
                             background-color: $color-two;
                             transition: all ease-in-out .2s;
                         }
@@ -1218,13 +1232,13 @@
                     height: 49%;
                     .homefourth-overlay{
                         position: absolute;
-                        height: 100%;
+                        height: 40%;
                         width: 100%;
                         left: 0;
-                        top: 0;
+                        top: 60%;
                         bottom: 0;
                         right: 0;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         background-color: rgba(12, 14, 12, 0.9);
                     }
@@ -1239,23 +1253,25 @@
                     }
                     .homefourth-content{
                         position: absolute;
-                        top: 50%;
+                        top: 81%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         height: 30%;
                         width: 100%;
                         display: flex;
                         flex-flow: column;
-                        justify-content: space-between;
+                        justify-content: space-around;
                         align-items: center;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         h1{
-                            font-weight: normal;
+                            font-weight: bold;
                             font-size: $font-large;
                             color: $color-three;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
                         }
-                        .fourth-buttonbox{
+                        .portfolio-buttonbox{
                             width: 150px;
                             height: 50px;
                             display: flex;
@@ -1264,10 +1280,15 @@
                             border: 1px solid $color-two;
                             transition: all ease-in-out .2s;
                             a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 font-size: $font-small;
                             }
                         }
-                        .fourth-buttonbox:hover{
+                        .portfolio-buttonbox:hover{
                             background-color: $color-two;
                             transition: all ease-in-out .2s;
                         }
@@ -1292,13 +1313,13 @@
                     position: relative;
                     .homefourth-overlay{
                         position: absolute;
-                        height: 100%;
+                        height: 40%;
                         width: 100%;
                         left: 0;
-                        top: 0;
+                        top: 60%;
                         bottom: 0;
                         right: 0;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         background-color: rgba(12, 14, 12, 0.9);
                     }
@@ -1313,23 +1334,25 @@
                     }
                     .homefourth-content{
                         position: absolute;
-                        top: 50%;
+                        top: 81%;
                         left: 50%;
                         transform: translate(-50%, -50%);
                         height: 30%;
                         width: 100%;
                         display: flex;
                         flex-flow: column;
-                        justify-content: space-between;
+                        justify-content: space-around;
                         align-items: center;
-                        opacity: 0;
+                        opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         h1{
-                            font-weight: normal;
+                            font-weight: bold;
                             font-size: $font-large;
                             color: $color-three;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
                         }
-                        .fourth-buttonbox{
+                        .portfolio-buttonbox{
                             width: 150px;
                             height: 50px;
                             display: flex;
@@ -1338,10 +1361,15 @@
                             border: 1px solid $color-two;
                             transition: all ease-in-out .2s;
                             a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 font-size: $font-small;
                             }
                         }
-                        .fourth-buttonbox:hover{
+                        .portfolio-buttonbox:hover{
                             background-color: $color-two;
                             transition: all ease-in-out .2s;
                         }
@@ -1405,10 +1433,10 @@
                     height: 49%;
                     .homefourth-overlay{
                         position: absolute;
-                        height: 30%;
+                        height: 40%;
                         width: 100%;
                         left: 0;
-                        top: 70%;
+                        top: 61%;
                         bottom: 0;
                         right: 0;
                         opacity: 1;
@@ -1426,36 +1454,42 @@
                     }
                     .homefourth-content{
                         position: absolute;
-                        top: 50%;
+                        top: 81%;
                         left: 50%;
-                        height: 100%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
                         width: 100%;
                         display: flex;
                         flex-flow: column;
-                        justify-content: flex-end;
-                        align-items: flex-start;
+                        justify-content: space-around;
+                        align-items: center;
                         opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         h1{
-                            font-weight: normal;
+                            font-weight: bold;
                             font-size: $font-large;
                             color: $color-three;
-                            margin-bottom: 10px;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
                         }
-                        .fourth-buttonbox{
-                            margin-bottom: 5px;
+                        .portfolio-buttonbox{
                             width: 150px;
-                            height: 40px;
+                            height: 50px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             border: 1px solid $color-two;
                             transition: all ease-in-out .2s;
                             a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 font-size: $font-small;
                             }
                         }
-                        .fourth-buttonbox:hover{
+                        .portfolio-buttonbox:hover{
                             background-color: $color-two;
                             transition: all ease-in-out .2s;
                         }
@@ -1480,10 +1514,10 @@
                     height: 49%;
                     .homefourth-overlay{
                         position: absolute;
-                        height: 30%;
+                        height: 40%;
                         width: 100%;
                         left: 0;
-                        top: 70%;
+                        top: 61%;
                         bottom: 0;
                         right: 0;
                         opacity: 1;
@@ -1501,36 +1535,42 @@
                     }
                     .homefourth-content{
                         position: absolute;
-                        top: 50%;
+                        top: 81%;
                         left: 50%;
-                        height: 100%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
                         width: 100%;
                         display: flex;
                         flex-flow: column;
-                        justify-content: flex-end;
-                        align-items: flex-start;
+                        justify-content: space-around;
+                        align-items: center;
                         opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         h1{
-                            font-weight: normal;
+                            font-weight: bold;
                             font-size: $font-large;
                             color: $color-three;
-                            margin-bottom: 10px;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
                         }
-                        .fourth-buttonbox{
-                            margin-bottom: 5px;
+                        .portfolio-buttonbox{
                             width: 150px;
-                            height: 40px;
+                            height: 50px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             border: 1px solid $color-two;
                             transition: all ease-in-out .2s;
                             a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 font-size: $font-small;
                             }
                         }
-                        .fourth-buttonbox:hover{
+                        .portfolio-buttonbox:hover{
                             background-color: $color-two;
                             transition: all ease-in-out .2s;
                         }
@@ -1565,10 +1605,10 @@
                     height: 49%;
                     .homefourth-overlay{
                         position: absolute;
-                        height: 30%;
+                        height: 40%;
                         width: 100%;
                         left: 0;
-                        top: 70%;
+                        top: 61%;
                         bottom: 0;
                         right: 0;
                         opacity: 1;
@@ -1586,36 +1626,42 @@
                     }
                     .homefourth-content{
                         position: absolute;
-                        top: 50%;
+                        top: 81%;
                         left: 50%;
-                        height: 100%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
                         width: 100%;
                         display: flex;
                         flex-flow: column;
-                        justify-content: flex-end;
-                        align-items: flex-start;
+                        justify-content: space-around;
+                        align-items: center;
                         opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         h1{
-                            font-weight: normal;
+                            font-weight: bold;
                             font-size: $font-large;
                             color: $color-three;
-                            margin-bottom: 10px;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
                         }
-                        .fourth-buttonbox{
-                            margin-bottom: 5px;
+                        .portfolio-buttonbox{
                             width: 150px;
-                            height: 40px;
+                            height: 50px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             border: 1px solid $color-two;
                             transition: all ease-in-out .2s;
                             a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 font-size: $font-small;
                             }
                         }
-                        .fourth-buttonbox:hover{
+                        .portfolio-buttonbox:hover{
                             background-color: $color-two;
                             transition: all ease-in-out .2s;
                         }
@@ -1640,10 +1686,10 @@
                     position: relative;
                     .homefourth-overlay{
                         position: absolute;
-                        height: 30%;
+                        height: 40%;
                         width: 100%;
                         left: 0;
-                        top: 70%;
+                        top: 61%;
                         bottom: 0;
                         right: 0;
                         opacity: 1;
@@ -1661,36 +1707,42 @@
                     }
                     .homefourth-content{
                         position: absolute;
-                        top: 50%;
+                        top: 81%;
                         left: 50%;
-                        height: 100%;
+                        transform: translate(-50%, -50%);
+                        height: 30%;
                         width: 100%;
                         display: flex;
                         flex-flow: column;
-                        justify-content: flex-end;
-                        align-items: flex-start;
+                        justify-content: space-around;
+                        align-items: center;
                         opacity: 1;
                         transition: all .4s ease-in-out 0s;
                         h1{
-                            font-weight: normal;
+                            font-weight: bold;
                             font-size: $font-large;
                             color: $color-three;
-                            margin-bottom: 10px;
+                            letter-spacing: 0.1rem;
+                            text-align: center;
                         }
-                        .fourth-buttonbox{
-                            margin-bottom: 5px;
+                        .portfolio-buttonbox{
                             width: 150px;
-                            height: 40px;
+                            height: 50px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
                             border: 1px solid $color-two;
                             transition: all ease-in-out .2s;
                             a{
+                                width: 100%;
+                                height: 100%;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
                                 font-size: $font-small;
                             }
                         }
-                        .fourth-buttonbox:hover{
+                        .portfolio-buttonbox:hover{
                             background-color: $color-two;
                             transition: all ease-in-out .2s;
                         }
